@@ -1,0 +1,46 @@
+[{
+        "id": 1,
+        "name": "GENERAL",
+        "show": false,
+        "children": [{
+                "name": "Cloud Storage",
+                "show": false,
+                "next": [{
+                    "name": "Signin"
+                }, { "name": "Signout" }, { "name": "Logoff" }]
+            },
+
+            { "name": "Customers" }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "ADMINISTRATION",
+        "show": false,
+        "children": [{
+            "name": "Team Settings",
+            "show": false,
+            "next": [{
+                "name": "Login"
+            }, { "name": "LogOut" }, { "name": "Logoff" }]
+        }, { "name": "Team Manage" }]
+    },
+    {
+        "id": 3,
+        "name": "INVITATIONS",
+        "show": false,
+        "children": [{ "name": "Members" }, { "name": "Plugin" }]
+    },
+    {
+        "id": 4,
+        "name": "PAYMENTS",
+        "show": false,
+        "children": [{ "name": "About" }, { "name": "Password" }]
+    },
+    {
+        "id": 5,
+        "name": "SETTINGS",
+        "show": false,
+        "children": [{ "name": "Messages" }, { "name": "Overview" }]
+    }
+]
