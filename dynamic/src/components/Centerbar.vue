@@ -186,9 +186,10 @@
 <style scoped>
 
 .center{
-    margin-left: 240px;
-    margin-top: -690px;
-    margin-right: 70px;
+    position: fixed;
+    left: 25vw;top: 14vh;
+    max-height: 550px;
+    overflow-y: scroll;
     
 }
 
